@@ -57,7 +57,7 @@ export default {
       this.displayname = ''
       this.loginid = ''
       this.password = ''
-      this.status = ''
+      this.status = 'true'
 
     }
 
@@ -65,7 +65,7 @@ export default {
 }
 </script >
 
-<style >
+<style scoped >
 .userinfo {
   width: 37.3125rem;
   height: 39.625rem;
@@ -199,13 +199,12 @@ input:checked+.slider:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 167.8087615966797px;
-  height: 47px;
-  top: 746px;
-  left: 1190.2868347167969px;
-  border-radius: 9px;
+  width: 229px;
+  height: 67px;
+  top: 694px;
+  left: 417px;
   background: #702F61;
-  margin-left: 20px;
+  border-radius: 40px;
 }
 
 .btntext {
@@ -220,7 +219,6 @@ input:checked+.slider:before {
   letter-spacing: 0.03em;
   text-align: left;
   color: #FFFFFF;
-
 }
 
 

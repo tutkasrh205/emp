@@ -3,7 +3,7 @@
 
         <div><img class="profile" src="../assets/profile.jpeg" alt=""></div>
 
-        <div class="text"> {{ employee.displayname }}</div>
+        <div class="text"><div>{{ employee.displayname }}</div></div>
         <div> <button type="button" @click="$emit('xyz', employee.id)" class="btn2">
                 <div class="btn2text">View</div>
             </button>
@@ -42,14 +42,17 @@ export default {
 }
 
 .text {
-    width: 112.94820404052734px;
-    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
     top: 759px;
     left: 993.4342651367188px;
     font-family: Roboto;
     font-size: 19px;
     font-weight: 700;
-    line-height: 50px;
+    
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
