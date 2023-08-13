@@ -134,6 +134,10 @@ export default {
         background-color: #0C060E;
 
     }
+    .active{
+        color: #FFFFFF;
+
+    }
 }
 
 @media only screen and (max-width: 600px) {
